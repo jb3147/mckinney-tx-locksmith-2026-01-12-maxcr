@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Mckinney Locksmith</title>
+    <meta name="description" content="Comprehensive locksmith services in Mckinney, TX. Residential, commercial, automotive, and 24/7 emergency lockout solutions provided by licensed experts.">
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#5B4BFF',
+                        secondary: '#EEF0FF',
+                        accent: '#00E5A8',
+                    },
+                    boxShadow: {
+                        'soft': '0 10px 40px rgba(0,0,0,0.08)',
+                        'glow': '0 0 20px rgba(91, 75, 255, 0.3)',
+                    },
+                    borderRadius: {
+                        'xl': '1rem',
+                        '2xl': '1rem',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        /* Custom Styles for energetic interactions */
+        .hover-lift {
+            transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+        }
+        .hover-lift:hover {
+            transform: scale(1.05); /* Energetic scale */
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-700 antialiased bg-white selection:bg-primary selection:text-white overflow-x-hidden flex flex-col min-h-screen">
+
+    <!-- Header (Simple Logo + Back) -->
+    <header class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm transition-all duration-300">
+        <nav class="max-w-7xl mx-auto px-6 md:px-12 h-20">
+            <div class="flex items-center justify-between w-full h-full">
+                <!-- Logo -->
+                <a href="index.html" class="text-2xl font-bold tracking-tight text-gray-900 group flex items-center gap-2">
+                    <span class="text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-8 h-8 group-hover:rotate-12 transition-transform duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25a3 3 0 013 3m3 0a6 6 0 01-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1121.75 8.25z" />
+                        </svg>
+                    </span>
+                    Mckinney Locksmith
+                </a>
+
+                <!-- Back Link -->
+                <a href="index.html" class="font-medium text-gray-600 hover:text-primary transition-colors duration-300 flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+                    </svg>
+                    Back
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-16 bg-secondary overflow-hidden">
+        <!-- Abstract Background Shape -->
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-[600px] h-[600px] bg-primary/5 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-[400px] h-[400px] bg-accent/10 rounded-full blur-3xl"></div>
+
+        <div class="max-w-7xl mx-auto px-6 md:px-12 relative z-10 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-6">
+                Our Premium <span class="text-primary">Services</span>
+            </h1>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
+                From emergency lockouts to advanced commercial security systems, our licensed experts in Mckinney provide professional solutions tailored to your specific needs.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Service 1: Residential -->
+                <div class="group bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:shadow-soft hover-lift transition-all duration-300 flex flex-col h-full">
+                    <div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
+                        <i class="fas fa-home text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Residential Locksmith</h3>
+                    <p class="text-gray-600 leading-relaxed flex-grow">
+                        Secure your home with our rekeying, lock replacement, and fresh installation services. We handle deadbolts, smart locks, and lockout situations with care for your property.
+                    </p>
+                </div>
+
+                <!-- Service 2: Commercial -->
+                <div class="group bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:shadow-soft hover-lift transition-all duration-300 flex flex-col h-full">
+                    <div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
+                        <i class="fas fa-building text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Commercial Security</h3>
+                    <p class="text-gray-600 leading-relaxed flex-grow">
+                        Protect your business assets with high-security locks, master key systems, and panic bar installations. We serve offices, retail stores, and warehouses across Mckinney.
+                    </p>
+                </div>
+
+                <!-- Service 3: Automotive -->
+                <div class="group bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:shadow-soft hover-lift transition-all duration-300 flex flex-col h-full">
+                    <div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
+                        <i class="fas fa-car text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Automotive Locksmith</h3>
+                    <p class="text-gray-600 leading-relaxed flex-grow">
+                        Locked keys in the car? Need a new transponder key trained? Our mobile units come to you for ignition repair, key fob programming, and car door unlocking.
+                    </p>
+                </div>
+
+                <!-- Service 4: Emergency -->
+                <div class="group bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:shadow-soft hover-lift transition-all duration-300 flex flex-col h-full">
+                    <div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
+                        <i class="fas fa-stopwatch text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">24/7 Emergency Service</h3>
+                    <p class="text-gray-600 leading-relaxed flex-grow">
+                        We are available around the clock for urgent situations. Whether it's a broken key, a lockout, or burglary damage repair, our team arrives rapidly to restore your security.
+                    </p>
+                </div>
+
+                <!-- Service 5: Smart Locks -->
+                <div class="group bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:shadow-soft hover-lift transition-all duration-300 flex flex-col h-full">
+                    <div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
+                        <i class="fas fa-wifi text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Smart Lock Installation</h3>
+                    <p class="text-gray-600 leading-relaxed flex-grow">
+                        Upgrade your security with keyless entry systems. We install and configure keypad locks, fingerprint access, and Wi-Fi enabled locks for modern convenience.
+                    </p>
+                </div>
+
+                <!-- Service 6: Key Duplication -->
+                <div class="group bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:shadow-soft hover-lift transition-all duration-300 flex flex-col h-full">
+                    <div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
+                        <i class="fas fa-key text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Key Duplication</h3>
+                    <p class="text-gray-600 leading-relaxed flex-grow">
+                        Precision key cutting for homes, businesses, and vehicles. We can duplicate standard keys, laser-cut keys, and program chip keys on-site.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-primary relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-accent rounded-full blur-[100px] opacity-30"></div>
+        <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Need Immediate Assistance?</h2>
+            <p class="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
+                Our technicians are ready to dispatch to your location in Mckinney. Fully licensed, bonded, and insured for your peace of mind.
+            </p>
+            <a href="contact.html" class="inline-flex justify-center items-center bg-white text-primary font-bold px-10 py-4 rounded-full shadow-lg hover:bg-gray-50 transition-colors transform hover:scale-105 duration-200">
+                Contact Us Now
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5 ml-2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 pt-16 pb-8 mt-auto">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <!-- Brand -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-2 text-white font-bold text-xl">
+                        <span class="text-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25a3 3 0 013 3m3 0a6 6 0 01-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1121.75 8.25z" />
+                            </svg>
+                        </span>
+                        Mckinney Locksmith
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Your trusted local partner for all residential, commercial, and automotive security needs in Texas.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4 text-lg">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-primary transition-colors text-sm">Home</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-primary transition-colors text-sm">Our Services</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-primary transition-colors text-sm">Contact Us</a></li>
+                        <li><a href="index.html#faq" class="text-gray-400 hover:text-primary transition-colors text-sm">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4 text-lg">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-primary transition-colors text-sm">Emergency Lockout</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-primary transition-colors text-sm">Car Key Replacement</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-primary transition-colors text-sm">Lock Installation</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-primary transition-colors text-sm">Safe Unlocking</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4 text-lg">Contact</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start text-gray-400 text-sm">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-primary"></i>
+                            <span>Mckinney, TX<br>Serving 75069, 75070, 75071</span>
+                        </li>
+                        <li class="flex items-center text-gray-400 text-sm">
+                            <i class="fas fa-phone-alt mr-3 text-primary"></i>
+                            <a href="tel:5551234567" class="hover:text-white transition-colors">(555) 123-4567</a>
+                        </li>
+                        <li class="flex items-center text-gray-400 text-sm">
+                            <i class="fas fa-envelope mr-3 text-primary"></i>
+                            <a href="mailto:help@mckinneylock.com" class="hover:text-white transition-colors">help@mckinneylock.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-500 text-sm text-center md:text-left">
+                    &copy; 2023 Mckinney Locksmith. All rights reserved.
+                </p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-500 hover:text-white text-sm">Privacy Policy</a>
+                    <a href="#" class="text-gray-500 hover:text-white text-sm">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
